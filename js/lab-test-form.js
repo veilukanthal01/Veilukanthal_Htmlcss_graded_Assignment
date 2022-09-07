@@ -1,5 +1,7 @@
 
 function DropDown(dropDown) {
+    document.getElementById('date').value = new Date().toDateInputValue();
+    
     var TamilNadu = ["Ariyalur", "Chennai", "Coimbatore", "Cuddalore", "Dharmapuri", "Dindigul", "Erode", "Kanchipuram", "Kanyakumari", "Karur", "Krishnagiri", "Madurai", "Nagapattinam", "Namakkal", "Nilgiris", "Perambalur", "Pudukkottai", "Ramanathapuram", "Salem", "Sivaganga", "Thanjavur", "Theni", "Thoothukudi", "Tiruchirappalli", "Tirunelveli", "Tiruppur", "Tiruvallur", "Tiruvannamalai", "Tiruvarur", "Vellore", "Viluppuram", "Virudhunagar"];
 
     var ul = document.getElementById("inputDistrict");
@@ -78,7 +80,7 @@ function DropDown(dropDown) {
             menu.children[0].focus();
             document.addEventListener('click', handleClickOut);
             dropDown.dispatchEvent(new Event('opened'));
-            document.getElementById("checkDiv").style.marginTop = "30%";
+            document.getElementById("checkDiv").style.marginTop = "35%";
         } else {
             toggler.classList.remove('active');
             dropDown.dispatchEvent(new Event('closed'));
@@ -96,7 +98,7 @@ dropDown.element.addEventListener('change', e => {
 
 dropDown.element.addEventListener('opened', e => {
     console.log('opened', dropDown.value);
-    document.getElementById("checkDiv").style.marginTop = "30%";
+    document.getElementById("checkDiv").style.marginTop = "35%";
 });
 
 dropDown.element.addEventListener('closed', e => {

@@ -317,7 +317,7 @@ option {
     visibility: hidden;
     overflow: auto;
     max-height: 200px;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .dropdown .dropdown-menu[aria-expanded="true"] {
@@ -345,4 +345,5 @@ option {
 #district-placeholder {
     margin-left: 2%;
     margin-top: 5%;
+    font-size: 17px;
 }

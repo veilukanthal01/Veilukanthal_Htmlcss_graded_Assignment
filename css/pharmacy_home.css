@@ -7,6 +7,7 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -19,7 +20,8 @@ body {
 header {
     top: 0%;
     text-align: center;
-    font-size: xx-large;
+    font-size: 30px;
+    font-weight: bold;
     z-index: 1;
     padding-top: 10px;
     background-color: rgb(69, 69, 69);
@@ -56,7 +58,7 @@ header {
 
 .menu li a {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 
 }
@@ -226,8 +228,8 @@ header {
     height: 30px;
     background-color: #d1c4e960;
     color: orange;
-    font-size: 20px;
-    font-family: bold;
+    font-size: 18px;
+    font-weight: bold;
     border: 1px solid rgba(17, 0, 255, 0.972);
     border-radius: 10px;
     cursor: pointer;
@@ -259,12 +261,14 @@ h2 {
     text-align: left;
     height: 5px;
     margin-left: 2%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h3 {
     text-align: left;
     margin-top: 0%;
     height: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 footer {
