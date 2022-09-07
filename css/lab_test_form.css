@@ -8,8 +8,8 @@ body {
     border-radius: 2px;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.215);
     box-sizing: border-box;
-    height: 700px;
-    margin-top: 2%;
+    height: 510px;
+    margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 10%;
@@ -34,8 +34,8 @@ body {
 .container>#image-container {
     display: inline-block;
     text-align: left;
-    width: 650px;
-    height: 650px;
+    width: 630px;
+    height: 490px;
     position: fixed;
 }
 
@@ -280,6 +280,7 @@ option {
     outline: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
+    height: 60px;
 }
 
 .dropdown .dropdown-toggle::after {
