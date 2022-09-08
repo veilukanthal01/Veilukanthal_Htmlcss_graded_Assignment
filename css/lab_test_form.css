@@ -10,9 +10,9 @@ body {
     box-sizing: border-box;
     height: 510px;
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-right: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     padding: 10px 0px;
     position: relative;
     width: 90%;
@@ -347,4 +347,23 @@ option {
     margin-left: 2%;
     margin-top: 5%;
     font-size: 17px;
+}
+
+#button-container {
+    height: 50px;
+    margin-left: 40%;
+}
+
+.button {
+    background-color: #A569BD;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
 }

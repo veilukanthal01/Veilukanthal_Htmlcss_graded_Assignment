@@ -8,6 +8,7 @@ body {
     height: 100%;
     overflow-x: hidden;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 body {
@@ -29,7 +30,8 @@ header {
     width: 100%;
     max-width: 100%;
     height: 60px;
-    max-height: 60px;
+    max-height: 70px;
+    position: fixed;
 }
 
 #navigate {
@@ -47,8 +49,9 @@ header {
 
 .menu {
     margin: 0%;
-    position: relative;
+    position: fixed;
     background-color: rgb(121, 121, 121);
+    width: 100%
 }
 
 .menu li {
@@ -102,12 +105,12 @@ header {
     background-color: gainsboro;
 }
 
-.sticky {
+/*.sticky {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
-}
+}*/
 
 /* Image sliders*/
 
@@ -116,7 +119,7 @@ header {
 }
 
 .slideshow-container>.mySlides>img {
-    height: 90%;
+    height: 600px;
     width: 95%;
     border: 2px solid steelblue;
     position: relative;
@@ -133,6 +136,7 @@ header {
     width: 100%;
     height: 70%;
     max-height: 80%;
+    padding-top: 3%;
 }
 
 /* Fading animation */
@@ -166,6 +170,7 @@ header {
     margin-bottom: 2%;
     margin-left: 3%;
     margin-right: auto;
+    position: relative;
 }
 
 .row {
@@ -208,6 +213,8 @@ header {
     text-align: left;
     display: block;
     height: 5px;
+    font-size: 17px;
+    margin-top: 2%;
 }
 
 .offer_price {
@@ -216,6 +223,8 @@ header {
     text-align: -webkit-left;
     display: block;
     height: 5px;
+    font-size: 17px;
+    margin-top: 2%;
 }
 
 .add_to_cart {
@@ -262,6 +271,7 @@ h2 {
     height: 5px;
     margin-left: 2%;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
 }
 
 h3 {
@@ -269,6 +279,7 @@ h3 {
     margin-top: 0%;
     height: 5px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
 }
 
 footer {
@@ -285,4 +296,13 @@ footer {
     height: 99%;
     Width: 99%;
     position: relative;
+}
+
+#navbar {
+    position: fixed;
+    width: 99%;
+    max-width: 99%;
+    z-index: 1;
+    height: 50px;
+    margin-top: -1%;
 }

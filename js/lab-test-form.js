@@ -1,7 +1,12 @@
+function resetForm() {
+    document.getElementById("labTestForm").reset();
+    document.getElementById("dropdown-button").innerHTML = 'Choose';
+}
+
 
 function DropDown(dropDown) {
 
-    
+
     var TamilNadu = ["Ariyalur", "Chennai", "Coimbatore", "Cuddalore", "Dharmapuri", "Dindigul", "Erode", "Kanchipuram", "Kanyakumari", "Karur", "Krishnagiri", "Madurai", "Nagapattinam", "Namakkal", "Nilgiris", "Perambalur", "Pudukkottai", "Ramanathapuram", "Salem", "Sivaganga", "Thanjavur", "Theni", "Thoothukudi", "Tiruchirappalli", "Tirunelveli", "Tiruppur", "Tiruvallur", "Tiruvannamalai", "Tiruvarur", "Vellore", "Viluppuram", "Virudhunagar"];
 
     var ul = document.getElementById("inputDistrict");
